@@ -1,0 +1,4 @@
+from . import LSM6DSV_CORE
+
+class LSM6DSV16B(LSM6DSV_CORE):
+	CHIP_ID = 0x71
